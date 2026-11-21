@@ -56,20 +56,17 @@ def get_contributions():
     ]
 
 
-def contribution_color(count, maximum):
+def contribution_color(count, maximum=None):
     if count == 0:
         return (35, 30, 34, 255)
-
-    level = count / max(maximum, 1)
-
-    if level < 0.25:
+    elif count <= 9:
         return (121, 11, 22, 255)
-    elif level < 0.50:
+    elif count <= 19:
         return (215, 25, 50, 255)
-    elif level < 0.75:
+    elif count <= 29:
         return (255, 100, 28, 255)
-
-    return (255, 203, 104, 255)
+    else:
+        return (255, 203, 104, 255)
 
 
 def create_grid(image, contributions):
@@ -131,6 +128,39 @@ def create_grid(image, contributions):
             radius=2,
             fill=color
         )
+          # Cover the old static artwork legend
+    legend_y = height - 42
+
+    draw.rectangle(
+        (0, legend_y, width, height),
+        fill=(8, 9, 11, 255)
+    )
+
+    # Draw the live contribution legend
+    legend = [
+        ("0", (35, 30, 34, 255)),
+        ("1-9", (121, 11, 22, 255)),
+        ("10-19", (215, 25, 50, 255)),
+        ("20-29", (255, 100, 28, 255)),
+        ("30+", (255, 203, 104, 255))
+    ]
+
+    x = 110
+
+    for label, color in legend:
+        draw.rounded_rectangle(
+            (x, legend_y + 12, x + 15, legend_y + 27),
+            radius=3,
+            fill=color
+        )
+
+        draw.text(
+            (x + 21, legend_y + 12),
+            label,
+            fill=(230, 220, 210, 255)
+        )
+
+        x += 105
 
     return image
 
