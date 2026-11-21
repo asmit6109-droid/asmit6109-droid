@@ -2,8 +2,9 @@
 
 <div align="center">
 
-<img width="100%"
-src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:080B0A,50:102A1A,100:39FF88&text=ASMIT.EXE&fontColor=FFFFFF&fontSize=75&fontAlignY=50&animation=fadeIn&stroke=39FF88&strokeWidth=1"/>
+<img src="./assets/asmit-hero.svg"
+     width="100%"
+     alt="ASMIT.EXE Living Emerald Hero"/>
 
 <br/>
 
@@ -11,18 +12,13 @@ src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:080B0A,
 
 <br/><br/>
 
-<p>
-  <b>ENGINEERING IDEAS INTO REALITY.</b>
-</p>
+<p><b>ENGINEERING IDEAS INTO REALITY.</b></p>
 
-<p>
-  Exploring software development, AI/ML and problem solving.
-</p>
+<p>Exploring software development, AI/ML and problem solving.</p>
 
 <br/>
 
 </div>
-
 <!-- TECH ARSENAL -->
 
 <div align="center">
