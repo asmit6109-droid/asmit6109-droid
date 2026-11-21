@@ -20,3 +20,9 @@ Here are some ideas to get you started:
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=asmit6109-droid&theme=tokyonight&hide_border=true" />
 </p>
+
+<h2 align="center">🐍 Watch my contributions come alive</h2>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/asmit6109-droid/asmit6109-droid/output/github-snake-dark.svg" width="100%" alt="GitHub Contribution Snake"/>
+</p>
