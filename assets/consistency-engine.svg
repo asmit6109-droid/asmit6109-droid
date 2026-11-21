@@ -118,9 +118,9 @@
       </circle>
     </g>
 
-    <text x="120" y="100" fill="#F0FFF5"
-          font-family="Arial" font-size="47"
-          font-weight="bold">00</text>
+    <text id="current-streak" x="120" y="100" fill="#F0FFF5"
+      font-family="Arial" font-size="47"
+      font-weight="bold">00</text>
 
     <text x="123" y="124" fill="#39FF88"
           font-family="Arial" font-size="10"
@@ -134,10 +134,11 @@
     <text x="0" y="6" fill="#8B9C91"
           font-family="Arial" font-size="11"
           letter-spacing="2">PERSONAL BEST</text>
+   
+     <text id="longest-streak" x="0" y="68" fill="#F0FFF5"
+      font-family="Arial" font-size="48"
+      font-weight="bold">00</text>
 
-    <text x="0" y="68" fill="#F0FFF5"
-          font-family="Arial" font-size="48"
-          font-weight="bold">00</text>
 
     <text x="3" y="91" fill="#39FF88"
           font-family="Arial" font-size="10"
@@ -159,9 +160,9 @@
           font-family="Arial" font-size="11"
           letter-spacing="2">TOTAL CONTRIBUTIONS</text>
 
-    <text x="0" y="68" fill="#F0FFF5"
-          font-family="Arial" font-size="48"
-          font-weight="bold">000</text>
+    <text id="total-contributions" x="0" y="68" fill="#F0FFF5"
+      font-family="Arial" font-size="48"
+      font-weight="bold">000</text>
 
     <text x="3" y="91" fill="#39FF88"
           font-family="Arial" font-size="10"
