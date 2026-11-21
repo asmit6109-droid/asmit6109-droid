@@ -98,7 +98,6 @@ def draw_ghost(draw, cx, cy, radius, phase):
     draw.ellipse((cx-radius*.38, eye_y-radius*.12, cx-radius*.17, eye_y+radius*.2), fill=(8,35,23))
     draw.ellipse((cx+radius*.22, eye_y-radius*.12, cx+radius*.43, eye_y+radius*.2), fill=(8,35,23))
 
-```python
 def random_pacman_path(length=72):
     import random
 
@@ -311,7 +310,7 @@ def build_frame(days, total, frame_index, frame_count):
     )
 
     return image
-```
+  
 def main():
     days, total = fetch_calendar()
     frames = [build_frame(days, total, i, 72) for i in range(72)]
