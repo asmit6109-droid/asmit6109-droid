@@ -1,0 +1,33 @@
+name: ASMIT.EXE - Pac-Man Contribution Run
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Generate Pac-Man contribution animation
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: python assets/create_pacman.py
+      - name: Commit generated animation
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/pacman-contributions.gif
+          git diff --cached --quiet || git commit -m "Update Pac-Man contribution animation"
+          git push
