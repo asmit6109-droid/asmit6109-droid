@@ -69,3 +69,25 @@
 <sub>ASMIT.EXE // CONTINUOUS DEVELOPMENT PROTOCOL</sub>
 
 </div>
+
+<!-- ========== 04 / SYSTEM TELEMETRY ========== -->
+
+<h2 align="center">04 / SYSTEM TELEMETRY</h2>
+
+<div align="center">
+
+<img height="165"
+src="https://github-readme-stats.vercel.app/api?username=asmit6109-droid&show_icons=true&hide_border=true&bg_color=08090B&title_color=39FF88&text_color=C9D1D9&icon_color=D71932&ring_color=39FF88"/>
+
+<img height="165"
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=asmit6109-droid&layout=compact&hide_border=true&bg_color=08090B&title_color=39FF88&text_color=C9D1D9"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<sub>METRICS // CODE // CONSISTENCY</sub>
+
+</div>
