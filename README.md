@@ -33,36 +33,15 @@
 
 </div>
 
-<!-- =============== CONSISTENCY PROTOCOL =============== -->
+<!-- ========== CONSISTENCY ENGINE ========== -->
+
+<h2 align="center">02 / CONSISTENCY PROTOCOL</h2>
 
 <div align="center">
 
-<br/>
-
-<img src="https://img.shields.io/badge/02-CONSISTENCY%20PROTOCOL-0D1117?style=for-the-badge&labelColor=0D1117&color=39FF88"/>
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=asmit6109-droid&theme=transparent&hide_border=true&background=0D1117&ring=39FF88&fire=39FF88&currStreakLabel=39FF88&sideLabels=C9D1D9&dates=777777&stroke=30363D" width="95%" alt="GitHub Streak Statistics"/>
-
-<br/><br/>
-
-<sub>CONSISTENCY IS THE REAL FLEX.</sub>
-
-<br/><br/>
-
-</div>
-
-<!-- ================================================ -->
-<br/>
-
-<div align="center">
-
-<img
-  src="https://streak-stats.demolab.com?user=asmit6109-droid&theme=dark&hide_border=true&background=0D1117&ring=39FF88&fire=39FF88&currStreakNum=39FF88&sideNums=39FF88&currStreakLabel=39FF88&sideLabels=8B949E&dates=8B949E&hide_longest_streak=true&card_width=500"
-  width="500"
-  alt="GitHub Consistency Stats"
-/>
+  <img src="./assets/consistency-engine.svg"
+       width="100%"
+       alt="ASMIT.EXE Consistency Engine"/>
 
 </div>
 
