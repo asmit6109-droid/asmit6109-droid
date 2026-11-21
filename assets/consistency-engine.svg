@@ -120,7 +120,7 @@
 
     <text id="current-streak" x="120" y="100" fill="#F0FFF5"
       font-family="Arial" font-size="47"
-      font-weight="bold">00</text>
+      font-weight="bold">24</text>
 
     <text x="123" y="124" fill="#39FF88"
           font-family="Arial" font-size="10"
@@ -137,7 +137,7 @@
    
      <text id="longest-streak" x="0" y="68" fill="#F0FFF5"
       font-family="Arial" font-size="48"
-      font-weight="bold">00</text>
+      font-weight="bold">24</text>
 
 
     <text x="3" y="91" fill="#39FF88"
@@ -162,7 +162,7 @@
 
     <text id="total-contributions" x="0" y="68" fill="#F0FFF5"
       font-family="Arial" font-size="48"
-      font-weight="bold">000</text>
+      font-weight="bold">213</text>
 
     <text x="3" y="91" fill="#39FF88"
           font-family="Arial" font-size="10"
