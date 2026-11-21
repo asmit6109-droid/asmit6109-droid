@@ -54,3 +54,16 @@
 </div>
 
 <!-- ================================================ -->
+<br/>
+
+<div align="center">
+
+<img
+  src="https://streak-stats.demolab.com?user=asmit6109-droid&theme=dark&hide_border=true&background=0D1117&ring=39FF88&fire=39FF88&currStreakNum=39FF88&sideNums=39FF88&currStreakLabel=39FF88&sideLabels=8B949E&dates=8B949E&hide_longest_streak=true&card_width=500"
+  width="500"
+  alt="GitHub Consistency Stats"
+/>
+
+</div>
+
+<br/>
