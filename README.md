@@ -47,20 +47,18 @@
 
 <br/>
 
-<!-- ========== VOID WYRM ========== -->
+<!-- ========== PAC-MAN CONTRIBUTION RUN ========== -->
 
-<h2 align="center">03 / VOID WYRM</h2>
+<h2 align="center">03 / PAC-MAN CONTRIBUTION RUN</h2>
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/asmit6109-droid/asmit6109-droid/main/assets/void-wyrm-live.gif"
+<img src="https://raw.githubusercontent.com/asmit6109-droid/asmit6109-droid/main/assets/pacman-contributions.gif"
      width="100%"
-     alt="VOID WYRM - Animated Contribution Hunt"/>
+     alt="Crimson Pac-Man and emerald ghosts across the GitHub contribution grid"/>
 
 <br/>
 
-<p><b>EVERY CONTRIBUTION FEEDS THE WYRM.</b></p>
-
-<p>CONSISTENCY IS THE WEAPON. EXECUTION IS THE PROOF.</p>
+<p><b>EAT THE DOTS. KEEP THE STREAK ALIVE.</b></p>
 
 </div>
